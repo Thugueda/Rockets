@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+:root {
+    --cor1: #1926E0;
+    --cor2: #3E0FF7;
+    --cor3: #780EED;
+    --cor4: #0F5CF7;
+    --cor5: #0E92ED;
+
+    --font-padrão: 'Montserrat', sans-serif;
+
+}
+
+
+
+header>h1 {
+    min-width: 350px;
+    max-width: 13cm;
+    margin: auto;
+    padding: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 58px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
+    text-shadow: 1px 3px 0px #fdfdfd;
+    box-shadow: inset 0px 0px 0px 3px rgb(43 43 43);
+
+
+}
+
+header {
+    min-width: 350px;
+    max-width: 28cm;
+    background-image: linear-gradient(to bottom, red, yellow 85%);
+
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+    border-radius: 10px;
+
+}
+
+h2,
+h1 {
+    padding: 0%;
+    margin-top: 1%;
+}
+
+main>p {
+    text-align: center;
+    min-width: 800px;
+    min-width: 320px;
+    font-size: 21px;
+    font-family: var(--font-padrão);
+    text-indent: 20px;
+    line-height: 26px;
+
+
+}
+
+
+main {
+    max-width: 550px;
+    text-align: center;
+    background-color: rgb(186, 221, 216);
+    width: 28cm;
+    height: auto;
+    padding: 0%;
+    margin: auto;
+
+
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px #3d7ddba6;
+    max-width: 100%
+}
+
+img {
+    max-width: 550px;
+    display: inline-block;
+
+}
+
+img#t {
+    width: 110px;
+    height: 110px;
+    border-radius: 45px;
+    border-style: solid;
+    border-color: var(--cor3);
+
+
+}
+
+
+
+iframe {
+    width: 680px;
+    height: 480px;
+
+}
+
+div.video {
+    height: 451px;
+    text-align: center;
+    position: relative;
+    margin-left: 6%;
+    margin-right: 143px;
+    margin-bottom: 15px;
+    padding-bottom: -5px;
+
+
+}
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 86%;
+    min-width: 320px;
+    height: 87%;
+
+
+}
+
+footer {
+    background-color: #0E92ED;
+    text-align: center;
+    color: bisque;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.voltar:hover {
+    background-color: var(--cor2);
+    color: wheat;
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: #ff0a0a;
+    font-size: 17px;
+
+}
+
+footer>a,
+p {
+    margin: 0%;
+}
+
+
+.link,
+.link>a {
+    max-width: 14cm;
+    min-width: 200px;
+    margin: auto;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 60px;
+    color: #e4e4e4;
+    border-radius: 10px;
+    background-color: #1d1c22;
+
+
+}
+
+.link:hover {
+    background-color: var(--cor2);
+    color: gold;
+
+}
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, var(--cor1) 3%, var(--cor2) 38%, var(--cor4) 40%, var(--cor5) 98%);
+    animation: gradient 7s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+header>h1 {
+
+    background: linear-gradient(315deg, var(--cor1) 3%, var(--cor2) 38%, var(--cor4) 40%, var(--cor5) 98%);
+    animation: gradient 7s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+
+
+}

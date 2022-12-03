@@ -1,0 +1,163 @@
+@font-face {
+    font-family: pay;
+    src: url(PaybAck.ttf);
+}
+
+* {
+    padding: 10px;
+    margin: auto;
+    max-width: 100%
+}
+
+main>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+body {
+    background-color: rgb(29, 27, 27);
+    height: 50cm;
+    padding: auto;
+    margin: auto;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 340px;
+    background-color: #a0a09e;
+    border-radius: 10px;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px #3d7ddba6;
+}
+
+.iframe {
+    width: 680px;
+    height: 480px;
+
+}
+
+
+div.video {
+    height: 451px;
+    text-align: center;
+    position: relative;
+    margin-left: 6%;
+    margin-right: 143px;
+    margin-bottom: 15px;
+    padding-bottom: -5px;
+
+
+}
+
+div.video>.iframe {
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    max-width: 96%;
+    min-width: 280px;
+    height: 81%;
+
+}
+
+
+
+
+
+header {
+    max-width: 800px;
+    min-width: 340px;
+    background-color: #F2C48D;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #49d4d4;
+    font-family: pay;
+    text-align: center;
+    font-size: 55px;
+    padding: auto;
+    margin: auto;
+    box-sizing: 35px;
+    box-shadow: 1px 1px 1px 1px #73a9faa6;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+
+
+
+
+}
+
+.text {
+    color: #1d1c22;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+/*IMAGEMS */
+img {
+    border-radius: 55px;
+
+
+
+}
+
+.imagem6 {
+    transition: all .5s;
+    border: 10px solid #eeeeee00;
+}
+
+.imagem6:hover {
+    border: 10px solid #000000d0;
+    border-radius: 20%;
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.8);
+}
+
+.spacex {
+    background-color: #1d1c22;
+    color: black;
+    border-radius: 10000000px;
+    width: 34%;
+    box-shadow: 1px 1px 1px 6px #0091f1a6;
+
+
+}
+.spacex:hover{
+
+    background-color: white;
+
+
+}
+
+
+
+
+.voltar {
+    text-align: top;
+    background-color: white;
+    box-shadow: red;
+    border-radius: 10000px;
+    box-shadow: 1px 1px 1px 5px #73a9faa6;
+
+
+}
+
+
+
+
+
+
+
+/*repansivos */

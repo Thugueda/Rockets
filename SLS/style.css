@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+* {
+    padding: 10px;
+    margin: auto;
+    max-width: 100%
+}
+
+body {
+    background-color:#1C2226;
+    height: 50cm;
+    padding: auto;
+    margin: auto;
+}
+main {
+    background-color: #f2b544de;
+    border-radius: 10px;
+    height: auto;
+    width: 23cm;
+    padding: auto;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px #3d7ddba6;
+    max-width: 100%
+}
+
+header {
+    max-width: 30cm ;
+    min-width: 250px ;
+    background-color: #f0d1d1e8;
+    
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    
+    color: #f35a01;
+    font-family: pay;
+    text-align: center;
+    font-size: 55px;
+    padding: auto;
+    margin: auto;
+    box-sizing: 35px;
+    box-shadow: 1px 1px 1px 1px #fa73cdef;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a{
+    text-decoration: none;
+}
+
+.voltar {
+    text-align: top;
+    background-color: rgb(255, 255, 255);
+    box-shadow: red;
+    border-radius: 10000px;
+    box-shadow: 1px 1px 1px 5px #e76209a6;
+
+
+}
+.t1, .t2 {
+    max-width: 150px ;
+    min-width: 20px;
+    height: 150px;
+    max-height:200px ;
+    padding: auto;
+    transition: all .5s;
+    border: 10px solid #eeeeee00;
+    border-radius: 20%;
+
+}
+.t1:hover {
+    border-radius: 20%;
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(3);
+}
+.text {
+    color: #1d1c22;
+    text-align: center;
+    font-size: 22px;
+
+}
+.img1{
+    border-radius: 55px;
+    height: 15em;
+    padding: auto;
+    display: block;
+    
+
+}
+.img2{
+    border-radius: 20%;
+    height: 180px;
+    width: auto;
+    padding: auto;
+    text-align: left;
+}
+.omg
+{
+    color: #e4e4e4;
+    border-radius: 10px;
+    background-color: #1d1c22;
+    width: 20cm;
+    font-size: 2cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg,#121213 3%, #1c2429 38%, #2b2f31 40%, #121b22c0 98%);
+    animation: gradient 7s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+
